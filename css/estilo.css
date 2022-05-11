@@ -19,10 +19,18 @@ body{
 }
 .bunner-img{
     width: 100%;
-    height: 450px;
+    height: 500px;
+    padding: 0px 0px 0px 0px;
            
   }
 
 h2{
     color: #32d5c8;
   }
+
+.carrosel-estilo{
+    width: 100%;
+    height: 100%;
+    padding: 70px 20px 0px 20px;
+    
+}
