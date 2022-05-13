@@ -73,6 +73,7 @@
               <li><a href="#">One more separated link</a></li>
             </ul>
           </li>
+          <li class=""><a href="#contato">Contato</a></li>
         </ul>
 
       </div><!-- /.navbar-collapse -->
@@ -82,7 +83,7 @@
   <!-- /Barra de Navegação -->
 
   <!--Barra inicial -->
-  <section >
+  <section>
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
       <!-- Indicadores -->
       <ol class="carousel-indicators">
@@ -107,7 +108,6 @@
           <img src="img/bunner4.png" class="bunner-img " alt="...">
         </div>
       </div>
-
       <!-- Controladores -->
       <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -121,13 +121,15 @@
     <!--/Barra inicial -->
   </section>
   <!--sobre nos/Redes sociais -->
-  <section>
+  <section class="">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2 text-center">
           <h2>Sobre Nós</h2>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an 
-            unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an
+            unknown printer took a galley of type and scrambled it to make a type specimen book <a href="#">[ver
+              mais]</a></p>
           <h3>Siga nossas redes sociais</h3>
           <a href=""><img src="img/insta.png" alt="" class="img-circle"></a>
           <a href=""><img src="img/face.png" alt="..." class="img-circle"></a>
@@ -141,26 +143,140 @@
   <section>
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 text-center">
-          
-          <h3>Loja</h3>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an 
-            unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-          
-            
+        <div class="col-md-8">
+          <div class="col-lg-8 col-lg-offset-2 text-center">
 
+            <h3>Serviços</h3>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+              industry's standard dummy text ever since the 1500s, when an
+              unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+
+            <div class="col-sm-6 col-md-4">
+              <a href="" class="thumbnail">
+                <img src="img/promo/banho1.png" class="img-circle" alt="">
+                <h3>Banho</h3>
+              </a>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the</p>
+            </div>
+            <div class="col-sm-6 col-md-4">
+              <a href="" class="thumbnail">
+                <img src="img/promo/tosa1.png" class="img-circle" alt="">
+                <h3>Tosa</h3>
+              </a>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the</p>
+            </div>
+            <div class="col-sm-6 col-md-4">
+              <a href="" class="thumbnail">
+                <img src="img/promo/loja.png" class="img-circle" alt="">
+                <h3>Loja</h3>
+              </a>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the</p>
+            </div>
+
+
+          </div>
         </div>
+
+        <!--propaganda laterais -->
+        <div class="col-md-4">
+          <img src="img/promo/Adestramanto.png" class="propaganda_lateral img-responsive" alt="">
+          <!--<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner carrosel-estilo" role="listbox">
+              <div class="item active ">
+                <img src="img/promo/Adestramanto.png" class="propaganda_lateral img-responsive" alt="...">
+              </div>
+              <div class="item">
+                <img src="img/promo/Promoção.png" class="propaganda_lateral img-responsive " alt="...">
+              </div>
+              <div class="item">
+                <img src="img/promo/ViagemCanina.png" class="propaganda_lateral img-responsive " alt="...">
+              </div>
+
+            </div>
+          </div>
+        </div>-->
+
+        <!--/propaganda laterais -->
       </div>
     </div>
   </section>
   <!--/Serviços-->
+  <!--/Contato-->
+  <section class="bg-secundary" id="contato">
+    <br>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+          <h2 class="section-heading" style="color: rgb(0, 0, 0);">Contato</h2>
+          <hr class="light" style="color: rgb(0, 0, 0);">
+          <p>Entre em contato e receba as revistas com promoções.</p>
+        </div>
 
+      </div>
+      <div class="row">
+        <div class="col-lg-5 text-center">
 
+          <img src="img/promo/whatsapp.png">
+        </div>
+        <div class="col-lg-5 text-center">
+          <form method="POST" action="#" id="contactform">
+            <div class="form-group row">
+              <h1 class="light">(31) 987189113</h1>
+              <div class="row">&nbsp;</div>
+              <label for="nome" class="col-sm-2 col-form-label">Nome</label>
+              <div class="col-sm-10">
+                <input type="nome" class="form-control" id="nome" aria-describedby="nome" placeholder="Informe seu nome"
+                  size="30" maxlength="30" required>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="email" class="col-sm-2 col-form-label">Email</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="email" aria-describedby="email"
+                  placeholder="Informe seu email" size="100" maxlength="100" required>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="celular" class="col-sm-2 col-form-label">Celular</label>
+              <div class="col-sm-10">
+                <input type="celular" class="form-control" id="celular" aria-describedby="celular"
+                  placeholder="Informe seu celular" size="11" maxlength="11" required>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="mensagem" class="col-sm-2 col-form-label">Mensagem</label>
+              <div class="col-sm-10">
+                <textarea name="mensagem" id="mensagem" placeholder="Entre com sua mensagem" cols="25" rows="3"
+                  required></textarea>
 
+              </div>
+            </div>
+            <div>
+              <button type="submit" class="btn btn-primary" name="enviar" id="enviar">Enviar</button>
+              <!--<input type="submit" value="Enviar">-->
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
 
+  </section>
+  <!--/Contato-->
 
+  <footer>
+    <div class="col-lg-12 text-center">
+      <h5>Copyright © 2022 Camilass Pets. Desenvolvido por:
+        <a href="https://api.whatsapp.com/send?phone=5531987189113&text=Ol%C3%A1%20estou
+        %20entrando%20em%20contato%20para%20fazer%20um%20or%C3%A7
+        amento%20de%20site%20%5Brosecosmetico.com.br%5D" target="_blank">Mateus Cruz </a>
 
+      </h5>
+    </div>
 
+  </footer>
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
